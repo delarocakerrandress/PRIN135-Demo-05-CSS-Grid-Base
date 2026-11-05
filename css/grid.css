@@ -171,6 +171,7 @@
 
 /* Justify Self */
 #justify-self {
+    display: grid;
 
     .js-stretch {
         justify-self: stretch;
@@ -194,6 +195,7 @@
 
 /* Align Self */
 #align-self {
+    display: grid;
 
     .as-stretch {
         align-self: stretch;

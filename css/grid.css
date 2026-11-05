@@ -113,7 +113,7 @@
 
 /* Justify Content */
 .grid-jc {
-    display: grid;
+    grid-template-columns: 100px 100px 100px;
 }
 
 .jc-start {
@@ -142,7 +142,7 @@
 
 /* Align Content */
 .grid-ac {
-    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .ac-start {
@@ -171,7 +171,6 @@
 
 /* Justify Self */
 #justify-self {
-    display: grid;
 
     .js-stretch {
         justify-self: stretch;
@@ -195,7 +194,6 @@
 
 /* Align Self */
 #align-self {
-    display: grid;
 
     .as-stretch {
         align-self: stretch;
